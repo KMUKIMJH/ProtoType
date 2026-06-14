@@ -1,0 +1,5 @@
+Assets/image/Objects/GearScrap.png
+FrameSize 64 64
+HotSpot 32 32
+RectCollision -32 -32 32 32
+NumFrames 1

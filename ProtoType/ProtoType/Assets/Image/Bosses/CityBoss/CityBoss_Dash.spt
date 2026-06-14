@@ -1,0 +1,8 @@
+Assets/image/Bosses/CityBoss/CityBoss_Dash.png
+HotSpot 50 36
+FrameSize 150 240
+RectCollision 20 50 124 270
+Frame 0 0
+Frame 150 0
+Frame 300 0
+Anim Assets/image/Bosses/CityBoss/CityBoss_Dash.anm

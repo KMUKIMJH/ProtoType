@@ -1,0 +1,8 @@
+Assets/image/Bosses/CityBoss/CityBoss_Shuriken.png
+HotSpot 50 36
+FrameSize 150 240
+RectCollision 30 50 100 200
+Frame 0 0
+Frame 150 0
+Frame 300 0
+Anim Assets/image/Bosses/CityBoss/CityBoss_Shuriken.anm

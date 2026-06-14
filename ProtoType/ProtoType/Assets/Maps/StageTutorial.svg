@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4000" height="1080" viewBox="0 0 4000 1080" xmlns="http://www.w3.org/2000/svg">
+  
+  <rect id="background" x="0" y="0" width="4000" height="1080" fill="#2c3e50" />
+
+  <rect id="platform_floor_1" x="-100" y="900" width="800" height="180" fill="#7f8c8d" />
+  <rect id="spawn_player" x="100" y="750" width="80" height="150" fill="#2ecc71" />
+  <text x="200" y="780" font-family="Arial" font-size="40" fill="#ffffff">Move: A / D</text>
+
+  <rect id="platform_jump_1" x="800" y="800" width="150" height="40" fill="#95a5a6" />
+  <rect id="platform_jump_2" x="1050" y="700" width="150" height="40" fill="#95a5a6" />
+  <text x="800" y="600" font-family="Arial" font-size="40" fill="#ffffff">Jump: Space</text>
+
+  <rect id="platform_floor_2" x="1300" y="900" width="600" height="180" fill="#7f8c8d" />
+  <rect id="enemy_melee_tut" x="1600" y="750" width="100" height="150" fill="#e74c3c" />
+  <text x="1400" y="780" font-family="Arial" font-size="40" fill="#ffffff">Attack: Left Click</text>
+
+  <rect id="platform_floor_3" x="1900" y="900" width="600" height="180" fill="#7f8c8d" />
+  <rect id="platform_low_ceiling" x="2100" y="380" width="150" height="450" fill="#34495e" />
+  <rect id="enemy_ranged_tut" x="2350" y="750" width="100" height="150" fill="#e67e22" />
+  <text x="1850" y="730" font-family="Arial" font-size="40" fill="#ffffff">Roll: Shift</text>
+
+  <rect id="platform_floor_4" x="2500" y="900" width="800" height="180" fill="#7f8c8d" />
+  <rect id="enemy_shield_tut" x="2900" y="750" width="100" height="150" fill="#8e44ad" />
+  <text x="2600" y="780" font-family="Arial" font-size="40" fill="#ffffff">Parry: Right Click</text>
+
+  <rect id="platform_floor_5" x="3300" y="900" width="700" height="180" fill="#7f8c8d" />
+  <rect id="portal_exit" x="3600" y="750" width="100" height="150" fill="#3498db" />
+  <text x="3500" y="700" font-family="Arial" font-size="40" fill="#ffffff">Portal: E</text>
+
+  <rect id="platform_wall_L" x="-100" y="0" width="100" height="1080" fill="#7f8c8d" />
+  <rect id="platform_wall_R" x="3900" y="0" width="100" height="1080" fill="#7f8c8d" />
+
+</svg>

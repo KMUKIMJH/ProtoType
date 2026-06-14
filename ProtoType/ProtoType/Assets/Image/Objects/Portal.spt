@@ -1,0 +1,12 @@
+Assets/image/Objects/Portal.png
+HotSpot 32 48
+FrameSize 64 96
+RectCollision -32 0 32 96
+Frame 0 0
+Frame 64 0
+Frame 128 0
+Frame 192 0
+Frame 256 0
+Anim Assets/image/Objects/PortalActivate.anm
+Anim Assets/image/Objects/PortalDeactivate.anm
+Anim Assets/image/Objects/PortalClosed.anm

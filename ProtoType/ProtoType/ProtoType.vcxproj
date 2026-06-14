@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{11e91342-46d3-4f92-ad2d-cf2f8d392825}</ProjectGuid>
+    <RootNamespace>ProtoType</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>5030;4875;26819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "$(OutputPath)Assets" mkdir "$(OutputPath)Assets"
+xcopy /d /y Assets\* "$(OutputPath)Assets"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>5030;4875;26819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "$(OutputPath)Assets" mkdir "$(OutputPath)Assets"
+xcopy /d /y Assets\* "$(OutputPath)Assets"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>5030;4875;26819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>$(CoreLibraryDependencies);Opengl32.lib;Gdi32.lib;User32.lib;%(AdditionalLibraryDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "$(OutputPath)Assets" mkdir "$(OutputPath)Assets"
+xcopy /d /y Assets\* "$(OutputPath)Assets"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <DisableSpecificWarnings>5030;4875;26819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>$(CoreLibraryDependencies);Opengl32.lib;Gdi32.lib;User32.lib;%(AdditionalLibraryDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "$(OutputPath)Assets" mkdir "$(OutputPath)Assets"
+xcopy /d /y Assets\* "$(OutputPath)Assets"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Animation.cpp" />
+    <ClCompile Include="Engine\Camera.cpp" />
+    <ClCompile Include="Engine\Collision.cpp" />
+    <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="Engine\Font.cpp" />
+    <ClCompile Include="Engine\GameObject.cpp" />
+    <ClCompile Include="Engine\GameObjectManager.cpp" />
+    <ClCompile Include="Engine\GameStateManager.cpp" />
+    <ClCompile Include="Engine\Input.cpp" />
+    <ClCompile Include="Engine\logger.cpp" />
+    <ClCompile Include="Engine\Matrix.cpp" />
+    <ClCompile Include="Engine\Particle.cpp" />
+    <ClCompile Include="Engine\Rect.cpp" />
+    <ClCompile Include="Engine\SFXManager.cpp" />
+    <ClCompile Include="Engine\ShowCollision.cpp" />
+    <ClCompile Include="Engine\Sprite.cpp" />
+    <ClCompile Include="Engine\Texture.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Engine\TextureManager.cpp" />
+    <ClCompile Include="Engine\Timer.cpp" />
+    <ClCompile Include="Engine\Vec2.cpp" />
+    <ClCompile Include="Engine\Window.cpp" />
+    <ClCompile Include="Game\BackDoor.cpp" />
+    <ClCompile Include="Game\Background.cpp" />
+    <ClCompile Include="Game\Bullet.cpp" />
+    <ClCompile Include="Game\CityBoss.cpp" />
+    <ClCompile Include="Game\Enemy.cpp" />
+    <ClCompile Include="Game\FactoryBoss.cpp" />
+    <ClCompile Include="Game\ForestBoss.cpp" />
+    <ClCompile Include="Game\Generator.cpp" />
+    <ClCompile Include="Game\HPStation.cpp" />
+    <ClCompile Include="Game\ProtoPortal.cpp" />
+    <ClCompile Include="Game\Scrap.cpp" />
+    <ClCompile Include="Game\HowToPlay.cpp" />
+    <ClCompile Include="Game\KeyBinding.cpp" />
+    <ClCompile Include="Game\Logo.cpp" />
+    <ClCompile Include="Game\MeleeEnemy.cpp" />
+    <ClCompile Include="Game\Menu.cpp" />
+    <ClCompile Include="Game\Player.cpp" />
+    <ClCompile Include="Game\PlayerHUD.cpp" />
+    <ClCompile Include="Game\PlayerStates.cpp" />
+    <ClCompile Include="Game\RangedEnemy.cpp" />
+    <ClCompile Include="Game\ScreenWrap.cpp" />
+    <ClCompile Include="Game\Setting.cpp" />
+    <ClCompile Include="Game\Credits.cpp" />
+    <ClCompile Include="Game\ShieldEnemy.cpp" />
+    <ClCompile Include="Game\Splash.cpp" />
+    <ClCompile Include="Game\StoryItem.cpp" />
+    <ClCompile Include="Game\Weapon.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OpenGL\DrawUtils2D.cpp" />
+    <ClCompile Include="OpenGL\Image.cpp" />
+    <ClCompile Include="OpenGL\SimpleRenderer2D.cpp" />
+    <ClCompile Include="Stage\MapLoader.cpp" />
+    <ClCompile Include="Stage\RunProgressManager.cpp" />
+    <ClCompile Include="Stage\StageShop.cpp" />
+    <ClCompile Include="Stage\StageCityBoss.cpp" />
+    <ClCompile Include="Stage\StageUI.cpp" />
+    <ClCompile Include="Stage\Tutorial.cpp" />
+    <ClCompile Include="Stage\\StageManager.cpp" />
+    <ClCompile Include="Stage\StageFactory.cpp" />
+    <ClCompile Include="Stage\StageForest.cpp" />
+    <ClCompile Include="Stage\StageCity.cpp" />
+    <ClCompile Include="Stage\StageForestBoss.cpp" />
+    <ClCompile Include="Stage\StageFactoryBoss.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Animation.h" />
+    <ClInclude Include="Engine\Camera.h" />
+    <ClInclude Include="Engine\Collision.h" />
+    <ClInclude Include="Engine\Component.h" />
+    <ClInclude Include="Engine\ComponentManager.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\Font.h" />
+    <ClInclude Include="Engine\GameObject.h" />
+    <ClInclude Include="Engine\GameObjectManager.h" />
+    <ClInclude Include="Engine\GameState.h" />
+    <ClInclude Include="Engine\GameStateManager.h" />
+    <ClInclude Include="Engine\Input.h" />
+    <ClInclude Include="Engine\logger.h" />
+    <ClInclude Include="Engine\Matrix.h" />
+    <ClInclude Include="Engine\Particle.h" />
+    <ClInclude Include="Engine\Path.h" />
+    <ClInclude Include="Engine\SFXManager.h" />
+    <ClInclude Include="Engine\ShowCollision.h" />
+    <ClInclude Include="Engine\Sprite.h" />
+    <ClInclude Include="Engine\Texture.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Engine\TextureManager.h" />
+    <ClInclude Include="Engine\Timer.h" />
+    <ClInclude Include="Engine\Vec2.h" />
+    <ClInclude Include="Engine\Window.h" />
+    <ClInclude Include="Engine\Rect.h" />
+    <ClInclude Include="Game\BackDoor.h" />
+    <ClInclude Include="Game\Background.h" />
+    <ClInclude Include="Game\Bullet.h" />
+    <ClInclude Include="Game\CityBoss.h" />
+    <ClInclude Include="Game\Enemy.h" />
+    <ClInclude Include="Game\FactoryBoss.h" />
+    <ClInclude Include="Game\ForestBoss.h" />
+    <ClInclude Include="Game\GameObjectTypes.h" />
+    <ClInclude Include="Game\Generator.h" />
+    <ClInclude Include="Game\Gravity.h" />
+    <ClInclude Include="Game\HPStation.h" />
+    <ClInclude Include="Game\Scrap.h" />
+    <ClInclude Include="Game\HowToPlay.h" />
+    <ClInclude Include="Game\KeyBinding.h" />
+    <ClInclude Include="Game\Logo.h" />
+    <ClInclude Include="Game\MeleeEnemy.h" />
+    <ClInclude Include="Game\Menu.h" />
+    <ClInclude Include="Game\Particles.h" />
+    <ClInclude Include="Game\Platform.h" />
+    <ClInclude Include="Game\Player.h" />
+    <ClInclude Include="Game\PlayerHUD.h" />
+    <ClInclude Include="Game\PlayerStates.h" />
+    <ClInclude Include="Game\ProtoPortal.h" />
+    <ClInclude Include="Game\RangedEnemy.h" />
+    <ClInclude Include="Game\ScreenWrap.h" />
+    <ClInclude Include="Game\Setting.h" />
+    <ClInclude Include="Game\Credits.h" />
+    <ClInclude Include="Game\ShieldEnemy.h" />
+    <ClInclude Include="Game\Splash.h" />
+    <ClInclude Include="Game\States.h" />
+    <ClInclude Include="Game\StoryItem.h" />
+    <ClInclude Include="Game\TwoWayPlatform.h" />
+    <ClInclude Include="Game\Weapon.h" />
+    <ClInclude Include="Game\Zipline.h" />
+    <ClInclude Include="OpenGL\Canvas2D.h" />
+    <ClInclude Include="OpenGL\DrawUtils2D.h" />
+    <ClInclude Include="OpenGL\Image.h" />
+    <ClInclude Include="OpenGL\RGBA.h" />
+    <ClInclude Include="OpenGL\SimpleRenderer2D.h" />
+    <ClInclude Include="OpenGL\Viewport.h" />
+    <ClInclude Include="Stage\MapLoader.h" />
+    <ClInclude Include="Stage\RunProgressManager.h" />
+    <ClInclude Include="Stage\StageShop.h" />
+    <ClInclude Include="Stage\StageCityBoss.h" />
+    <ClInclude Include="Stage\StageUI.h" />
+    <ClInclude Include="Stage\Tutorial.h" />
+    <ClInclude Include="Stage\\StageManager.h" />
+    <ClInclude Include="Stage\StageFactory.h" />
+    <ClInclude Include="Stage\StageForest.h" />
+    <ClInclude Include="Stage\StageCity.h" />
+    <ClInclude Include="Stage\StageForestBoss.h" />
+    <ClInclude Include="Stage\StageFactoryBoss.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Fonts\Font_pixel.png" />
+    <Image Include="Assets\image\Boss\Boss.png" />
+    <Image Include="Assets\image\Boss\BossAttack.PNG" />
+    <Image Include="Assets\image\Boss\laser.png" />
+    <Image Include="Assets\image\Interface\HP_Gage.png" />
+    <Image Include="Assets\image\Interface\HP_Gage_.png" />
+    <Image Include="Assets\image\Interface\HP_Gage_Gray.png" />
+    <Image Include="Assets\image\Interface\PR_Gage_.png" />
+    <Image Include="Assets\image\Interface\PR_Gage_2.png" />
+    <Image Include="Assets\image\Melee\Melee.png" />
+    <Image Include="Assets\image\Menu\Menu.png" />
+    <Image Include="Assets\image\Objects\Arrow.PNG" />
+    <Image Include="Assets\image\Objects\Platform.png" />
+    <Image Include="Assets\image\Objects\Portal.png" />
+    <Image Include="Assets\image\Player\PlayerR.png" />
+    <Image Include="Assets\image\Player\PlayerS.png" />
+    <Image Include="Assets\image\Player\PlayerW.png" />
+    <Image Include="Assets\image\Ranged\Ranged.png" />
+    <Image Include="Assets\image\Shield\Shield.png" />
+    <Image Include="Assets\image\Splash\DigiPen.png" />
+    <Image Include="Assets\image\Splash\Logo.png" />
+    <Image Include="Assets\image\Stage\Stage1.png" />
+    <Image Include="Assets\image\Stage\Stage2.png" />
+    <Image Include="Assets\image\Stage\Stage3.png" />
+    <Image Include="Assets\image\Stage\Stage4.png" />
+    <Image Include="Assets\image\Stage\Stage5.png" />
+    <Image Include="Assets\image\Stage\Stage6.png" />
+    <Image Include="Assets\image\Stage\StageBoss.png" />
+    <Image Include="Assets\image\Stage\StageBoss_T.png" />
+    <Image Include="Assets\image\Stage\StageMid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\image\Boss\Boss.spt" />
+    <None Include="Assets\image\Boss\BossAttack.anm" />
+    <None Include="Assets\image\Boss\BossAttack.spt" />
+    <None Include="Assets\image\Boss\BossDash.anm" />
+    <None Include="Assets\image\Boss\BossWalk.anm" />
+    <None Include="Assets\image\Melee\Melee.spt" />
+    <None Include="Assets\image\Melee\MeleeAttack.anm" />
+    <None Include="Assets\image\Melee\MeleeWalk.anm" />
+    <None Include="Assets\image\Menu\Menu.anm" />
+    <None Include="Assets\image\Menu\Menu.spt" />
+    <None Include="Assets\image\Objects\Arrow.spt" />
+    <None Include="Assets\image\Objects\None.anm" />
+    <None Include="Assets\image\Objects\Platform.spt" />
+    <None Include="Assets\image\Objects\Portal.spt" />
+    <None Include="Assets\image\Player\None.anm" />
+    <None Include="Assets\image\Player\PlayerRun.anm" />
+    <None Include="Assets\image\Player\PlayerRun.spt" />
+    <None Include="Assets\image\Player\PlayerSword.anm" />
+    <None Include="Assets\image\Player\PlayerSword.spt" />
+    <None Include="Assets\image\Player\PlayerWalk.anm" />
+    <None Include="Assets\image\Player\PlayerWalk.spt" />
+    <None Include="Assets\image\Ranged\Ranged.spt" />
+    <None Include="Assets\image\Ranged\RangedAttack.anm" />
+    <None Include="Assets\image\Ranged\RangedWalk.anm" />
+    <None Include="Assets\image\Shield\None.anm" />
+    <None Include="Assets\image\Shield\Shield.spt" />
+    <None Include="Assets\image\Shield\ShieldWalk.anm" />
+    <None Include="Assets\image\Splash\Logo.anm" />
+    <None Include="Assets\image\Splash\Logo.spt" />
+    <None Include="Assets\None.anm" />
+    <None Include="Assets\shaders\quad.frag" />
+    <None Include="Assets\shaders\quad.vert" />
+    <None Include="Assets\shaders\sdf.frag" />
+    <None Include="Assets\shaders\sdf.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Sound\BGM\fireland.wav" />
+    <Media Include="Assets\Sound\BGM\fireland_break.wav" />
+    <Media Include="Assets\Sound\BGM\nofireland.wav" />
+    <Media Include="Assets\Sound\BGM\nofireland_break.wav" />
+    <Media Include="Assets\Sound\SFX\block.wav" />
+    <Media Include="Assets\Sound\SFX\coin.wav" />
+    <Media Include="Assets\Sound\SFX\enumhit.wav" />
+    <Media Include="Assets\Sound\SFX\heal.wav" />
+    <Media Include="Assets\Sound\SFX\portal.wav" />
+    <Media Include="Assets\Sound\SFX\selcet_move.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

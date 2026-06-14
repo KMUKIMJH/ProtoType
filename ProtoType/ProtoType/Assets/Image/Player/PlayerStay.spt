@@ -1,0 +1,6 @@
+Assets/image/Player/PlayerStay.png
+HotSpot 44 18
+FrameSize 100 100
+RectCollision -22 18 10 100
+Frame 0 0
+Anim Assets/image/Player/None.anm

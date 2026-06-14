@@ -1,0 +1,10 @@
+Assets/image/Bosses/ForestBoss/ForestBoss.png
+HotSpot 256 0
+FrameSize 512 600
+RectCollision -245 300 245 895
+Frame 0 0
+Frame 512 0
+Frame 1024 0
+Anim Assets/image/Bosses/ForestBoss/ForestBoss_Idle.anm
+Anim Assets/image/Bosses/ForestBoss/ForestBoss_Shrink.anm
+Anim Assets/image/Bosses/ForestBoss/ForestBoss_Expansion.anm

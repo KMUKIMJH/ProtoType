@@ -1,0 +1,8 @@
+Assets/Image/Bosses/FactoryBoss/BossWaveATK.png
+HotSpot 50 0
+FrameSize 100 160
+RectCollision -50 80 50 240
+Frame 0 0
+Frame 100 0
+Frame 200 0
+Anim Assets/image/Bosses/FactoryBoss/BossWaveATK.anm

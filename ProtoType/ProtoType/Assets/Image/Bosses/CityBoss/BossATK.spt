@@ -1,0 +1,8 @@
+Assets/image/Bosses/CityBoss/BossATK.png
+HotSpot 0 0
+FrameSize 375 60
+RectCollision 185 30 565 90
+Frame 0 0
+Frame 375 0
+Frame 750 0
+Anim Assets/image/Bosses/CityBoss/BossATK.anm

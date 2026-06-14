@@ -1,0 +1,6 @@
+Assets/image/Objects/Generator.png
+FrameSize 150 200
+HotSpot 75 0
+RectCollision -75 100 75 300
+Frame 0 0
+Anim Assets/image/Objects/None.anm

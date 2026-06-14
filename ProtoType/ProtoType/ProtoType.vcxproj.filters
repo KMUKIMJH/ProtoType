@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{50cedfb7-1811-4865-8b69-438a2f8397f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{b312a68b-1bc2-456d-8def-014fd10d229e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{80232f2e-b8a3-4bc1-b96e-2f8ba7bae413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{36d16f3a-2905-45c1-b788-38452bbc7e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Fonts">
+      <UniqueIdentifier>{8275b7a5-8de9-43ce-b5cb-626ffe485230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shader">
+      <UniqueIdentifier>{b4cfa3f5-8351-4153-b193-19632789a422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage">
+      <UniqueIdentifier>{b4365312-e92c-42ee-a7e5-d7dd3ced985d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image">
+      <UniqueIdentifier>{aa6b7647-f447-4ec0-a850-b4f75a81082a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image\Player">
+      <UniqueIdentifier>{79c4421e-684f-4a91-9b9f-97d3d42ca0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image\Melee">
+      <UniqueIdentifier>{56592f82-6c70-44bd-a940-4957bc503eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image\Ranged">
+      <UniqueIdentifier>{003df798-c455-496a-98ac-36c1a25b62f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image\Shield">
+      <UniqueIdentifier>{49be00e4-66f1-487b-b0ce-052302c237df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image\Objects">
+      <UniqueIdentifier>{69e92257-b3b2-490d-9798-47ac1cd26c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image\Boss">
+      <UniqueIdentifier>{fe924c77-58be-4d21-adde-dcc889689e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image\Menu">
+      <UniqueIdentifier>{91c78d94-85ee-4dd7-9552-9bafd8f2b126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image\Stage">
+      <UniqueIdentifier>{4a5f2d95-e75c-47f9-8f9a-a0faffb537f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image\Splash">
+      <UniqueIdentifier>{7a51544e-0554-4eef-a15d-71bc8420f3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Sound">
+      <UniqueIdentifier>{0d4db73a-7b58-4705-a044-8aa8b49d0359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Sound\BGM">
+      <UniqueIdentifier>{a5a4baf0-78c3-4cac-bf6a-62f7f707225d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Sound\SFX">
+      <UniqueIdentifier>{766ae508-a684-4c5c-a5c8-d3aed95f927c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Image\Interface">
+      <UniqueIdentifier>{f47bcda7-1cce-45b2-b29b-1f86bbcd8f7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\logger.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Engine\Window.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameStateManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Vec2.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sprite.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Background.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Matrix.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Animation.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextureManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Font.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Menu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ScreenWrap.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Collision.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ShowCollision.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Particle.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Timer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\Image.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\SimpleRenderer2D.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rect.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\DrawUtils2D.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MeleeEnemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\RangedEnemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ShieldEnemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Weapon.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\\StageManager.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\StageFactory.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\StageCity.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\StageForest.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\StageFactoryBoss.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\StageForestBoss.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Bullet.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SFXManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Splash.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Logo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Setting.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Credits.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\Tutorial.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\StageShop.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scrap.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\StageUI.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\RunProgressManager.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayerHUD.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HowToPlay.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayerStates.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\KeyBinding.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CityBoss.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FactoryBoss.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ForestBoss.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\StageCityBoss.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\BackDoor.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Generator.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HPStation.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ProtoPortal.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\StoryItem.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\MapLoader.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\logger.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameState.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameStateManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\States.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Splash.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Vec2.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sprite.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rect.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Background.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Matrix.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Animation.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextureManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Font.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Menu.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Component.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ComponentManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ScreenWrap.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Gravity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Timer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Collision.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ShowCollision.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjectTypes.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Particle.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Particles.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Path.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\Image.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\RGBA.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\SimpleRenderer2D.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\Canvas2D.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\DrawUtils2D.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\Viewport.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MeleeEnemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ProtoPortal.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\RangedEnemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ShieldEnemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Weapon.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Bullet.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\\StageManager.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\StageFactory.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\StageForest.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\StageCity.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\StageFactoryBoss.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\StageForestBoss.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Platform.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SFXManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Logo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Setting.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Credits.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\Tutorial.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\StageShop.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scrap.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\StageUI.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\RunProgressManager.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayerHUD.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HowToPlay.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayerStates.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\KeyBinding.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CityBoss.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FactoryBoss.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ForestBoss.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\StageCityBoss.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\BackDoor.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Generator.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HPStation.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TwoWayPlatform.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Zipline.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\StoryItem.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\MapLoader.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Fonts\Font_pixel.png">
+      <Filter>Assets\Fonts</Filter>
+    </Image>
+    <Image Include="Assets\image\Melee\Melee.png">
+      <Filter>Assets\Image\Melee</Filter>
+    </Image>
+    <Image Include="Assets\image\Boss\Boss.png">
+      <Filter>Assets\Image\Boss</Filter>
+    </Image>
+    <Image Include="Assets\image\Boss\BossAttack.PNG">
+      <Filter>Assets\Image\Boss</Filter>
+    </Image>
+    <Image Include="Assets\image\Boss\laser.png">
+      <Filter>Assets\Image\Boss</Filter>
+    </Image>
+    <Image Include="Assets\image\Menu\Menu.png">
+      <Filter>Assets\Image\Menu</Filter>
+    </Image>
+    <Image Include="Assets\image\Objects\Arrow.PNG">
+      <Filter>Assets\Image\Objects</Filter>
+    </Image>
+    <Image Include="Assets\image\Objects\Platform.png">
+      <Filter>Assets\Image\Objects</Filter>
+    </Image>
+    <Image Include="Assets\image\Objects\Portal.png">
+      <Filter>Assets\Image\Objects</Filter>
+    </Image>
+    <Image Include="Assets\image\Shield\Shield.png">
+      <Filter>Assets\Image\Shield</Filter>
+    </Image>
+    <Image Include="Assets\image\Ranged\Ranged.png">
+      <Filter>Assets\Image\Ranged</Filter>
+    </Image>
+    <Image Include="Assets\image\Player\PlayerW.png">
+      <Filter>Assets\Image\Player</Filter>
+    </Image>
+    <Image Include="Assets\image\Stage\Stage1.png">
+      <Filter>Assets\Image\Stage</Filter>
+    </Image>
+    <Image Include="Assets\image\Stage\Stage2.png">
+      <Filter>Assets\Image\Stage</Filter>
+    </Image>
+    <Image Include="Assets\image\Stage\Stage3.png">
+      <Filter>Assets\Image\Stage</Filter>
+    </Image>
+    <Image Include="Assets\image\Stage\Stage4.png">
+      <Filter>Assets\Image\Stage</Filter>
+    </Image>
+    <Image Include="Assets\image\Stage\Stage5.png">
+      <Filter>Assets\Image\Stage</Filter>
+    </Image>
+    <Image Include="Assets\image\Stage\Stage6.png">
+      <Filter>Assets\Image\Stage</Filter>
+    </Image>
+    <Image Include="Assets\image\Stage\StageBoss.png">
+      <Filter>Assets\Image\Stage</Filter>
+    </Image>
+    <Image Include="Assets\image\Stage\StageBoss_T.png">
+      <Filter>Assets\Image\Stage</Filter>
+    </Image>
+    <Image Include="Assets\image\Stage\StageMid.png">
+      <Filter>Assets\Image\Stage</Filter>
+    </Image>
+    <Image Include="Assets\image\Splash\DigiPen.png">
+      <Filter>Assets\Image\Splash</Filter>
+    </Image>
+    <Image Include="Assets\image\Splash\Logo.png">
+      <Filter>Assets\Image\Splash</Filter>
+    </Image>
+    <Image Include="Assets\image\Interface\HP_Gage.png">
+      <Filter>Assets\Image\Interface</Filter>
+    </Image>
+    <Image Include="Assets\image\Interface\HP_Gage_.png">
+      <Filter>Assets\Image\Interface</Filter>
+    </Image>
+    <Image Include="Assets\image\Interface\HP_Gage_Gray.png">
+      <Filter>Assets\Image\Interface</Filter>
+    </Image>
+    <Image Include="Assets\image\Interface\PR_Gage_.png">
+      <Filter>Assets\Image\Interface</Filter>
+    </Image>
+    <Image Include="Assets\image\Interface\PR_Gage_2.png">
+      <Filter>Assets\Image\Interface</Filter>
+    </Image>
+    <Image Include="Assets\image\Player\PlayerR.png">
+      <Filter>Assets\Image\Player</Filter>
+    </Image>
+    <Image Include="Assets\image\Player\PlayerS.png">
+      <Filter>Assets\Image\Player</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\shaders\quad.frag">
+      <Filter>Assets\Shader</Filter>
+    </None>
+    <None Include="Assets\shaders\quad.vert">
+      <Filter>Assets\Shader</Filter>
+    </None>
+    <None Include="Assets\shaders\sdf.frag">
+      <Filter>Assets\Shader</Filter>
+    </None>
+    <None Include="Assets\shaders\sdf.vert">
+      <Filter>Assets\Shader</Filter>
+    </None>
+    <None Include="Assets\None.anm">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\image\Melee\Melee.spt">
+      <Filter>Assets\Image\Melee</Filter>
+    </None>
+    <None Include="Assets\image\Melee\MeleeAttack.anm">
+      <Filter>Assets\Image\Melee</Filter>
+    </None>
+    <None Include="Assets\image\Melee\MeleeWalk.anm">
+      <Filter>Assets\Image\Melee</Filter>
+    </None>
+    <None Include="Assets\image\Boss\Boss.spt">
+      <Filter>Assets\Image\Boss</Filter>
+    </None>
+    <None Include="Assets\image\Boss\BossAttack.anm">
+      <Filter>Assets\Image\Boss</Filter>
+    </None>
+    <None Include="Assets\image\Boss\BossAttack.spt">
+      <Filter>Assets\Image\Boss</Filter>
+    </None>
+    <None Include="Assets\image\Boss\BossDash.anm">
+      <Filter>Assets\Image\Boss</Filter>
+    </None>
+    <None Include="Assets\image\Boss\BossWalk.anm">
+      <Filter>Assets\Image\Boss</Filter>
+    </None>
+    <None Include="Assets\image\Menu\Menu.anm">
+      <Filter>Assets\Image\Menu</Filter>
+    </None>
+    <None Include="Assets\image\Menu\Menu.spt">
+      <Filter>Assets\Image\Menu</Filter>
+    </None>
+    <None Include="Assets\image\Objects\Arrow.spt">
+      <Filter>Assets\Image\Objects</Filter>
+    </None>
+    <None Include="Assets\image\Objects\None.anm">
+      <Filter>Assets\Image\Objects</Filter>
+    </None>
+    <None Include="Assets\image\Objects\Platform.spt">
+      <Filter>Assets\Image\Objects</Filter>
+    </None>
+    <None Include="Assets\image\Objects\Portal.spt">
+      <Filter>Assets\Image\Objects</Filter>
+    </None>
+    <None Include="Assets\image\Shield\None.anm">
+      <Filter>Assets\Image\Shield</Filter>
+    </None>
+    <None Include="Assets\image\Shield\Shield.spt">
+      <Filter>Assets\Image\Shield</Filter>
+    </None>
+    <None Include="Assets\image\Shield\ShieldWalk.anm">
+      <Filter>Assets\Image\Shield</Filter>
+    </None>
+    <None Include="Assets\image\Ranged\Ranged.spt">
+      <Filter>Assets\Image\Ranged</Filter>
+    </None>
+    <None Include="Assets\image\Ranged\RangedAttack.anm">
+      <Filter>Assets\Image\Ranged</Filter>
+    </None>
+    <None Include="Assets\image\Ranged\RangedWalk.anm">
+      <Filter>Assets\Image\Ranged</Filter>
+    </None>
+    <None Include="Assets\image\Player\None.anm">
+      <Filter>Assets\Image\Player</Filter>
+    </None>
+    <None Include="Assets\image\Player\PlayerWalk.anm">
+      <Filter>Assets\Image\Player</Filter>
+    </None>
+    <None Include="Assets\image\Player\PlayerWalk.spt">
+      <Filter>Assets\Image\Player</Filter>
+    </None>
+    <None Include="Assets\image\Splash\Logo.anm">
+      <Filter>Assets\Image\Splash</Filter>
+    </None>
+    <None Include="Assets\image\Splash\Logo.spt">
+      <Filter>Assets\Image\Splash</Filter>
+    </None>
+    <None Include="Assets\image\Player\PlayerSword.anm">
+      <Filter>Assets\Image\Player</Filter>
+    </None>
+    <None Include="Assets\image\Player\PlayerSword.spt">
+      <Filter>Assets\Image\Player</Filter>
+    </None>
+    <None Include="Assets\image\Player\PlayerRun.anm">
+      <Filter>Assets\Image\Player</Filter>
+    </None>
+    <None Include="Assets\image\Player\PlayerRun.spt">
+      <Filter>Assets\Image\Player</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Sound\BGM\fireland.wav">
+      <Filter>Assets\Sound\BGM</Filter>
+    </Media>
+    <Media Include="Assets\Sound\BGM\fireland_break.wav">
+      <Filter>Assets\Sound\BGM</Filter>
+    </Media>
+    <Media Include="Assets\Sound\BGM\nofireland.wav">
+      <Filter>Assets\Sound\BGM</Filter>
+    </Media>
+    <Media Include="Assets\Sound\BGM\nofireland_break.wav">
+      <Filter>Assets\Sound\BGM</Filter>
+    </Media>
+    <Media Include="Assets\Sound\SFX\block.wav">
+      <Filter>Assets\Sound\SFX</Filter>
+    </Media>
+    <Media Include="Assets\Sound\SFX\enumhit.wav">
+      <Filter>Assets\Sound\SFX</Filter>
+    </Media>
+    <Media Include="Assets\Sound\SFX\heal.wav">
+      <Filter>Assets\Sound\SFX</Filter>
+    </Media>
+    <Media Include="Assets\Sound\SFX\coin.wav">
+      <Filter>Assets\Sound\SFX</Filter>
+    </Media>
+    <Media Include="Assets\Sound\SFX\portal.wav">
+      <Filter>Assets\Sound\SFX</Filter>
+    </Media>
+    <Media Include="Assets\Sound\SFX\selcet_move.wav">
+      <Filter>Assets\Sound\SFX</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

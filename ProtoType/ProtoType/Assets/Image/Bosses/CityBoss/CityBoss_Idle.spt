@@ -1,0 +1,6 @@
+Assets/image/Bosses/CityBoss/CityBoss_Idle.png
+HotSpot 92 36
+FrameSize 150 240	
+RectCollision -65 50 40 270
+Frame 0 0
+Anim Assets/image/Bosses/CityBoss/None.anm

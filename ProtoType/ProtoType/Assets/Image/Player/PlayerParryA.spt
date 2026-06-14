@@ -1,0 +1,6 @@
+Assets/image/Player/PlayerParryA.png
+HotSpot 60 18
+FrameSize 100 100
+RectCollision -38 18 -6 100
+Frame 0 0
+Anim Assets/image/Player/None.anm

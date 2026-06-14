@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Bossmap.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1231481"
+     inkscape:cx="959.80214"
+     inkscape:cy="540"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     inkscape:label="Platform">
+    <rect
+       style="fill:#1a1a1a"
+       id="rect1"
+       width="1920"
+       height="80"
+       x="0"
+       y="1000" />
+    <rect
+       style="fill:#000000"
+       id="rect2"
+       width="72.5"
+       height="1000"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#000000"
+       id="rect3"
+       width="1777.5"
+       height="50"
+       x="72.5"
+       y="0" />
+    <rect
+       style="fill:#000000"
+       id="rect4"
+       width="70"
+       height="1000"
+       x="1850"
+       y="0" />
+  </g>
+  <g
+     id="layer2"
+     inkscape:label="Portal">
+    <rect
+       style="fill:#000080"
+       id="rect5"
+       width="50"
+       height="100"
+       x="300"
+       y="900" />
+  </g>
+  <g
+     id="layer3"
+     inkscape:label="Boss">
+    <rect
+       style="fill:#ff0000"
+       id="rect6"
+       width="50"
+       height="100"
+       x="1300.0739"
+       y="900" />
+  </g>
+  <g
+     id="layer4"
+     inkscape:label="PortalQuit">
+    <rect
+       style="fill:#000080"
+       id="rect5"
+       width="50"
+       height="100"
+       x="1500"
+       y="900" />
+  </g>
+</svg>

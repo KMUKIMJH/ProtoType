@@ -1,0 +1,14 @@
+Assets/image/Player/PlayerSword.png
+HotSpot 50 18
+FrameSize 100 100
+RectCollision -28 18 4 100
+Frame 0 0
+Frame 100 0
+Frame 200 0
+Frame 300 0
+Frame 0 100
+Frame 100 100
+Frame 200 100
+Frame 300 100
+Anim Assets/image/Player/PlayerFirstSlash.anm
+Anim Assets/image/Player/PlayerSecondSlash.anm

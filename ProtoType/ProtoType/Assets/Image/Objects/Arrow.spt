@@ -1,0 +1,5 @@
+Assets/image/Objects/Arrow.png
+FrameSize 370 64
+HotSpot 185 32
+RectCollision -185 -64 185 64
+NumFrames 1

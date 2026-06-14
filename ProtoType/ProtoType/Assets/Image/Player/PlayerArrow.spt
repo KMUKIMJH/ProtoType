@@ -1,0 +1,15 @@
+Assets/image/Player/PlayerArrow.png
+HotSpot 50 18
+FrameSize 100 100
+RectCollision -28 18 4 100
+Frame 0 0
+Frame 100 0
+Frame 200 0
+Frame 0 100
+Frame 100 100
+Frame 200 100
+Frame 0 200
+Frame 100 200
+Frame 200 200
+Anim Assets/image/Player/PlayerArrow.anm
+Anim Assets/image/Player/PlayerArrowClose.anm
